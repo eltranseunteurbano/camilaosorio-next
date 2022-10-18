@@ -1,11 +1,10 @@
 import NavBar from "./NavBar";
 
-
 export const Layout = ({ children }) => (
   <div
     css={{
       maxW: "100%",
-      boxSizzing: "border-box"
+      boxSizzing: "border-box",
     }}
   >
     <NavBar />

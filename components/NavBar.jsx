@@ -38,7 +38,7 @@ const NavBar = () => {
     setIsLoaded(true);
   }, []);
 
-  if (!isLoaded) return <p>Cargando</p>;
+  if (!isLoaded) return <div style={{ height: 76, width: "100%", backgroundColor: 'white'}}/>;
 
   return (
     <Navbar variant="sticky" shouldHideOnScroll>
@@ -49,13 +49,14 @@ const NavBar = () => {
       >
         <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
         <Link href="/">
-          <Image
+          <p>Camila</p>
+          {/* <Image
             src="/icons/logo-text.svg"
             alt="Logo Camila Osorio"
             width={143}
             height={40}
             style={{ cursor: "pointer" }}
-          />
+          /> */}
         </Link>
       </Navbar.Brand>
       <Navbar.Content
