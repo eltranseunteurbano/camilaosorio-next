@@ -1,0 +1,13 @@
+{
+  "menu": {
+    "reel": "Reel",
+    "curriculum": "Curriculum",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "languages": {
+    "es": "Spanish",
+    "en": "English"
+  }
+
+}
