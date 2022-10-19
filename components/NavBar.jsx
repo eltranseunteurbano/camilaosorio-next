@@ -41,7 +41,7 @@ const NavBar = () => {
   if (!isLoaded) return <div style={{ height: 76, width: "100%", backgroundColor: 'white'}}/>;
 
   return (
-    <Navbar variant="sticky" shouldHideOnScroll>
+    <Navbar variant="sticky" shouldHideOnScroll={router.pathname !== '/'}>
       <Navbar.Brand
         css={{
           gap: "0.5rem",
@@ -49,14 +49,15 @@ const NavBar = () => {
       >
         <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
         <Link href="/">
-          <p>Camila</p>
-          {/* <Image
-            src="/icons/logo-text.svg"
-            alt="Logo Camila Osorio"
-            width={143}
-            height={40}
-            style={{ cursor: "pointer" }}
-          /> */}
+          <div>
+            <Image
+              src="/icons/logo-text.svg"
+              alt="Logo Camila Osorio"
+              width={143}
+              height={40}
+              style={{ cursor: "pointer" }}
+            />
+          </div>
         </Link>
       </Navbar.Brand>
       <Navbar.Content

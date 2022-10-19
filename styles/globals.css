@@ -29,7 +29,7 @@ a {
   background: white;
   z-index: 1;
   min-block-size: calc(100vh - 76px);
-  padding: 4rem 0;
+  box-sizing: border-box;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -39,4 +39,16 @@ a {
 
 .example-1 {
   overflow: hidden;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  transition: height 0.2s;
+  align-items: flex-start; /* Add this */
+}
+.embla__slide {
+  flex: 0 0 100%;
 }
