@@ -52,3 +52,54 @@ a {
 .embla__slide {
   flex: 0 0 100%;
 }
+
+.contact-content > div > ul {
+  list-style-type: initial;
+  color: #B792FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content > li {
+  text-align: center;
+  margin: 0;
+}
+
+.contact-main {
+  min-block-size: calc(100vh - 76px);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-img {
+  inline-size: 100%;
+  min-block-size: 30vh;
+  background-image: url("/contact/main.webp");
+  background-repeat: no-repeat;
+  background-position: center -10vh;
+  background-size: cover;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex;
+  justify-content: center;
+  gap: 4rem 2rem;
+}
+
+
+@media (min-width: 800px) {
+  .contact-main {
+    flex-direction: row;
+  }
+  .contact-img {
+    background-position: center;
+    background-size: cover;
+  }
+  .contact-content {
+    flex-direction: row;
+  }
+}

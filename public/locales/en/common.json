@@ -8,6 +8,12 @@
   "languages": {
     "es": "Spanish",
     "en": "English"
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est in neque amet, elit augue duis augue. Bibendum egestas facilisi tempus, dui a duis eget tincidunt sed. At pulvinar nec sagittis, mauris nunc ridiculus. Ornare aliquam nec fermentum tristique purus.",
+    "phone": "Phone Number",
+    "mail": "Mail",
+    "social": "Social Media"
   }
-
 }

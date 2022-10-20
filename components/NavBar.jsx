@@ -41,7 +41,7 @@ const NavBar = () => {
   if (!isLoaded) return <div style={{ height: 76, width: "100%", backgroundColor: 'white'}}/>;
 
   return (
-    <Navbar variant="sticky" shouldHideOnScroll={router.pathname !== '/'}>
+    <Navbar variant="sticky">
       <Navbar.Brand
         css={{
           gap: "0.5rem",

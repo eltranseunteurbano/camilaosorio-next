@@ -3,14 +3,12 @@ import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import AutoHeight from "embla-carousel-auto-height";
 import { Image } from "@nextui-org/react";
 
 export const getStaticProps = async ({ locale }) => {
   return {
     props: {
       ...(await serverSideTranslations(locale, ["common", "footer"])),
-      // Will be passed to the page component as props
     },
   };
 };

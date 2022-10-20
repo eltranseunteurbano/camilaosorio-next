@@ -8,5 +8,12 @@
   "languages": {
     "es": "Español",
     "en": "Inglés"
+  },
+  "contact": {
+    "title": "Escríbeme",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est in neque amet, elit augue duis augue. Bibendum egestas facilisi tempus, dui a duis eget tincidunt sed. At pulvinar nec sagittis, mauris nunc ridiculus. Ornare aliquam nec fermentum tristique purus.",
+    "phone": "Teléfono",
+    "mail": "Correo electrónico",
+    "social": "Redes Sociales"
   }
 }
